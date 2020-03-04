@@ -3,29 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7C8FDACB24101545002D40E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDACA24101545002D40E3 /* AppDelegate.swift */; };
-		7C8FDACD24101545002D40E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDACC24101545002D40E3 /* SceneDelegate.swift */; };
-		7C8FDACF24101545002D40E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDACE24101545002D40E3 /* ViewController.swift */; };
-		7C8FDAD224101545002D40E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8FDAD024101545002D40E3 /* Main.storyboard */; };
 		7C8FDAD524101545002D40E3 /* Srujan_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDAD324101545002D40E3 /* Srujan_Project.xcdatamodeld */; };
 		7C8FDAD724101547002D40E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8FDAD624101547002D40E3 /* Assets.xcassets */; };
 		7C8FDADA24101547002D40E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8FDAD824101547002D40E3 /* LaunchScreen.storyboard */; };
+		7C8FDAE2241015C6002D40E3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDAE1241015C6002D40E3 /* ListViewController.swift */; };
+		7C8FDAE4241015D9002D40E3 /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDAE3241015D9002D40E3 /* FactsModel.swift */; };
+		7C8FDAE6241018BC002D40E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDAE5241018BC002D40E3 /* NetworkManager.swift */; };
+		7C8FDAE8241019DB002D40E3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FDAE7241019DB002D40E3 /* Utils.swift */; };
+		E8FD42D3FBD7E381D2817270 /* Pods_Srujan_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FDAF6FC02548518D8F77F2 /* Pods_Srujan_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C8FDAC724101545002D40E3 /* Srujan_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Srujan_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8FDACA24101545002D40E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C8FDACC24101545002D40E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C8FDACE24101545002D40E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C8FDAD124101545002D40E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C8FDAD424101545002D40E3 /* Srujan_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Srujan_Project.xcdatamodel; sourceTree = "<group>"; };
 		7C8FDAD624101547002D40E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C8FDAD924101547002D40E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C8FDADB24101547002D40E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8FDAE1241015C6002D40E3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7C8FDAE3241015D9002D40E3 /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		7C8FDAE5241018BC002D40E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7C8FDAE7241019DB002D40E3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8C8B738E6E55B4B99AC57689 /* Pods-Srujan_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Srujan_Project.release.xcconfig"; path = "Target Support Files/Pods-Srujan_Project/Pods-Srujan_Project.release.xcconfig"; sourceTree = "<group>"; };
+		998C66DE27B90979DFFB46F1 /* Pods-Srujan_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Srujan_Project.debug.xcconfig"; path = "Target Support Files/Pods-Srujan_Project/Pods-Srujan_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		B9FDAF6FC02548518D8F77F2 /* Pods_Srujan_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Srujan_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FD42D3FBD7E381D2817270 /* Pods_Srujan_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D81AF798432064D8C576E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9FDAF6FC02548518D8F77F2 /* Pods_Srujan_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C8FDABE24101545002D40E3 = {
 			isa = PBXGroup;
 			children = (
 				7C8FDAC924101545002D40E3 /* Srujan_Project */,
 				7C8FDAC824101545002D40E3 /* Products */,
+				DC3C2FEE804B9DF8713137AE /* Pods */,
+				22D81AF798432064D8C576E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				7C8FDACA24101545002D40E3 /* AppDelegate.swift */,
-				7C8FDACC24101545002D40E3 /* SceneDelegate.swift */,
-				7C8FDACE24101545002D40E3 /* ViewController.swift */,
-				7C8FDAD024101545002D40E3 /* Main.storyboard */,
+				7C8FDAE1241015C6002D40E3 /* ListViewController.swift */,
+				7C8FDAE3241015D9002D40E3 /* FactsModel.swift */,
+				7C8FDAE5241018BC002D40E3 /* NetworkManager.swift */,
+				7C8FDAE7241019DB002D40E3 /* Utils.swift */,
 				7C8FDAD624101547002D40E3 /* Assets.xcassets */,
 				7C8FDAD824101547002D40E3 /* LaunchScreen.storyboard */,
 				7C8FDADB24101547002D40E3 /* Info.plist */,
 				7C8FDAD324101545002D40E3 /* Srujan_Project.xcdatamodeld */,
 			);
 			path = Srujan_Project;
+			sourceTree = "<group>";
+		};
+		DC3C2FEE804B9DF8713137AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				998C66DE27B90979DFFB46F1 /* Pods-Srujan_Project.debug.xcconfig */,
+				8C8B738E6E55B4B99AC57689 /* Pods-Srujan_Project.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C8FDADE24101547002D40E3 /* Build configuration list for PBXNativeTarget "Srujan_Project" */;
 			buildPhases = (
+				765F05283AC48A44A873BB1A /* [CP] Check Pods Manifest.lock */,
 				7C8FDAC324101545002D40E3 /* Sources */,
 				7C8FDAC424101545002D40E3 /* Frameworks */,
 				7C8FDAC524101545002D40E3 /* Resources */,
+				91F5DE697E6E44CEEBB10333 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +159,52 @@
 			files = (
 				7C8FDADA24101547002D40E3 /* LaunchScreen.storyboard in Resources */,
 				7C8FDAD724101547002D40E3 /* Assets.xcassets in Resources */,
-				7C8FDAD224101545002D40E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		765F05283AC48A44A873BB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Srujan_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F5DE697E6E44CEEBB10333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Srujan_Project/Pods-Srujan_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Srujan_Project/Pods-Srujan_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Srujan_Project/Pods-Srujan_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C8FDAC324101545002D40E3 /* Sources */ = {
@@ -142,23 +212,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C8FDAD524101545002D40E3 /* Srujan_Project.xcdatamodeld in Sources */,
-				7C8FDACF24101545002D40E3 /* ViewController.swift in Sources */,
+				7C8FDAE4241015D9002D40E3 /* FactsModel.swift in Sources */,
+				7C8FDAE6241018BC002D40E3 /* NetworkManager.swift in Sources */,
 				7C8FDACB24101545002D40E3 /* AppDelegate.swift in Sources */,
-				7C8FDACD24101545002D40E3 /* SceneDelegate.swift in Sources */,
+				7C8FDAE2241015C6002D40E3 /* ListViewController.swift in Sources */,
+				7C8FDAE8241019DB002D40E3 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C8FDAD024101545002D40E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C8FDAD124101545002D40E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C8FDAD824101547002D40E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,10 +350,12 @@
 		};
 		7C8FDADF24101547002D40E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998C66DE27B90979DFFB46F1 /* Pods-Srujan_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Srujan_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +369,12 @@
 		};
 		7C8FDAE024101547002D40E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8B738E6E55B4B99AC57689 /* Pods-Srujan_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Srujan_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
